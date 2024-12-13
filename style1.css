@@ -1,0 +1,58 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: tan;
+    font-size: 20px
+}
+
+nav {
+    background-color: antiquewhite;
+    padding: 12px;
+    display: flex;
+    justify-content: space-around;
+    font-size: 20px
+}
+
+.nav a {
+    color: blueviolet;
+}
+
+.content {
+    display: flex;
+}
+
+.sidebar {
+    width: 20%;
+    background-color: tan;
+}
+
+.sidebar li {
+    margin: 8px;
+    font-size: 20px;
+}
+
+.main {
+    padding: 25px;
+
+}
+
+.main h2 {
+    text-decoration: underline brown;
+    text-align: center;
+}
+.main img {
+    margin: 20px;
+}
+
+.footer {
+    background-color: antiquewhite;
+    text-align: center;
+    padding: 30px;
+    font-size: 20px;
+}
