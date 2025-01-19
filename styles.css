@@ -1,0 +1,42 @@
+.sectionTeam{
+    text-align: center;
+}
+
+.teamItem{
+    width: calc(100% / 3 - 30px);
+}
+
+.teamItem .h3 {
+    color: #1D9D73;
+}
+
+.advItem{
+    width: calc(100% / 2 - 30px);
+    display: flex;
+}
+.text {
+    margin: 15px 0;
+}
+
+.advItem .title{
+    color: #1D9D73;
+    margin-top: 0;
+}
+
+.advRange{
+    width: 131px;
+    height: 131px;
+    background-color: #1D9D73;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 131px;
+    margin-right: 20px;
+}
+
+.advRange img{
+    vertical-align: middle;
+}
+
+.advTexts {
+    width: calc(100% - 151px);
+}
